@@ -149,3 +149,8 @@ function genesis_sample_comments_gravatar( $args ) {
 	return $args;
 
 }
+// * début fonction module woocommerce mathilde
+// Add WooCommerce support.
+include_once( get_stylesheet_directory() . '/lib/woocommerce-module/woocommerce-niveau-2.php' );
+
+
