@@ -158,3 +158,8 @@ include_once( get_stylesheet_directory() . '/lib/woocommerce-module/acf-function
 
 // Add fichier debug à utiliser quand on est plus dans Local
 include_once( get_stylesheet_directory() . '/lib/woocommerce-module/debug-functions.php' );
+
+// Add fichier modif email woocommerce
+include_once( get_stylesheet_directory() . '/lib/woocommerce-module/email-woocommerce.php' );
+
+

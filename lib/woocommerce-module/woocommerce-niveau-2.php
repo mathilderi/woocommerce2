@@ -40,6 +40,7 @@ add_action('woocommerce_product_meta_end', 'woocom2_composition_textile', 5);
 
 //Retirer les notes sur le produit
 //remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10 );
+// création fonction avec une boucle et ajout add_action au bon moment sinon ça ne marche pas
 
 add_action ('wp_head', 'woocom2_option_titre');
 function woocom2_option_titre(){
