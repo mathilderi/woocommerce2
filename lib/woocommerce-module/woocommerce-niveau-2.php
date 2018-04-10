@@ -28,7 +28,9 @@ function woocom2_composition_textile(){
 	}else{
 		echo "<p class='compo-textile'>Aucune composition disponible</p>"; 
 	}
-	
-	
+	// affiche en front des infos qu'on a pas là
+	var_dump($compo_textile); exit;
+
+	print_r($compo_textile); exit;
 }
 add_action('woocommerce_product_meta_end', 'woocom2_composition_textile', 5);
