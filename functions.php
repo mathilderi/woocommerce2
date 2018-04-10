@@ -153,4 +153,8 @@ function genesis_sample_comments_gravatar( $args ) {
 // Add WooCommerce support.
 include_once( get_stylesheet_directory() . '/lib/woocommerce-module/woocommerce-niveau-2.php' );
 
+// Add acf-function.php
+include_once( get_stylesheet_directory() . '/lib/woocommerce-module/acf-function.php' );
 
+// Add fichier debug à utiliser quand on est plus dans Local
+include_once( get_stylesheet_directory() . '/lib/woocommerce-module/debug-functions.php' );
