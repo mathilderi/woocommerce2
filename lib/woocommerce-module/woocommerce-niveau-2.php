@@ -20,7 +20,9 @@ add_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_template_loo
 
 
 function woocom2_composition_textile(){
-	echo 'mon texte'; 
+	// champ ACF
+	$compo_textile = get_field('woocom2_composition_textile');
+	echo "<p class='compo-textile'>{$compo_textile}</p>"; 
 	
 }
 add_action('woocommerce_product_meta_end', 'woocom2_composition_textile', 5);
